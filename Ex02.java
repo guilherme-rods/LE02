@@ -5,15 +5,18 @@ import java.util.Scanner;
 
 public class Ex02 {
 
-    public static void executar() {
+    public static void executar(){
         
         System.out.println("Exercício 02:");
 
         Scanner leitor = new Scanner(System.in);
 
-        int i, v[] = new int [4];
+        System.out.println("Defina o tamanho do Vetor: ");
+        int tam = leitor.nextInt();
 
-        for(i = 0; i < 4; i++){
+        int v[] = new int [tam];
+
+        for(int i = 0; i < tam; i++){
             System.out.println("Digite o elemento " + i + " do vetor: ");
             v[i] = leitor.nextInt();
 

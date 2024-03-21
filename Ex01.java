@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Ex01 {
 
-    public static void executar() {
+    public static void executar(){
         
         System.out.println("Exercício 01:");
 
@@ -25,6 +25,7 @@ public class Ex01 {
         System.out.println("Média: " + media);
 
         System.out.println("Números menores que a média:");
+
         for(i = 0; i < 5; i++){
             if(vetor[i] < media){
                 System.out.println(vetor[i]);
@@ -32,6 +33,7 @@ public class Ex01 {
         }
 
         System.out.println("Números iguais a média:");
+
         for(i = 0; i < 5; i++){
             if(vetor[i] == media){
                 System.out.println(vetor[i]);
@@ -39,6 +41,7 @@ public class Ex01 {
         }
 
         System.out.println("Números maiores que a média:");
+
         for(i = 0; i < 5; i++){
             if(vetor[i] > media){
                 System.out.println(vetor[i]);
