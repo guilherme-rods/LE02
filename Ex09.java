@@ -47,6 +47,8 @@ public class Ex09 {
             System.out.println(elemento + " ");
         }
 
+        System.out.println("Vetor C: {"+ C[0] +", "+ C[1] +", "+ C[2] +", "+ C[3] +", "+ C[4] +"}.");
+
         scanner.close();
     }
 }
