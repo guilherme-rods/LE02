@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class Ex15 {
     public static void executar() {
+
+        System.out.println("Exercício 15:");
+
         Scanner scanner = new Scanner(System.in);
         
         int v[] = new int[5];
